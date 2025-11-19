@@ -17,7 +17,7 @@ def load_instructions(agent_name: str) -> str:
 
 def download_scientific_skills(
     target_dir: str = "sandbox/.claude/skills",
-    github_repo: str = "K-Dense-AI/claude-scientific-skills",
+    github_repo: str = "ETL-AI/claude-scientific-skills",
     source_path: str = "scientific-skills",
     branch: str = "main"
 ) -> None:
