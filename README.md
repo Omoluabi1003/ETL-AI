@@ -51,13 +51,13 @@ This automatically:
 
 ## Community
 
-Join our K-Dense Slack community to connect with other users, share ideas, and get support:
+Join our ETL AI Slack community to connect with other users, share ideas, and get support:
 
-**[Join K-Dense Slack Community](https://join.slack.com/t/k-densecommunity/shared_invite/zt-3iajtyls1-EwmkwIZk0g_o74311Tkf5g)**
+**[Join ETL AI Slack Community](https://join.slack.com/t/etl-ai-community/shared_invite/zt-000000000-placeholder)**
 
 ## Claude Scientific Skills
 
-This repository is designed to work with the **[Claude Scientific Skills](https://github.com/K-Dense-AI/claude-scientific-skills)** collection of ready-to-use scientific tools and workflows ([link](https://github.com/K-Dense-AI/claude-scientific-skills)). The `start.py` setup script creates a `sandbox` that includes scientific skills from this collection so the `ETL AI` agent can leverage specialized ML libraries and scientific workflows. For full details on the skills themselves, see the upstream repository’s README and documentation [here](https://github.com/K-Dense-AI/claude-scientific-skills).
+This repository is designed to work with the **[Claude Scientific Skills](https://github.com/ETL-AI/claude-scientific-skills)** collection of ready-to-use scientific tools and workflows ([link](https://github.com/ETL-AI/claude-scientific-skills)). The `start.py` setup script creates a `sandbox` that includes scientific skills from this collection so the `ETL AI` agent can leverage specialized ML libraries and scientific workflows. For full details on the skills themselves, see the upstream repository’s README and documentation [here](https://github.com/ETL-AI/claude-scientific-skills).
 
 ## Manual Usage
 
@@ -79,12 +79,12 @@ Then navigate to **http://localhost:8000** in your browser.
 
 ## Enhanced ML Capabilities
 
-If you want substantially more powerful ML capabilities through a multi-agentic system, sign up for [www.k-dense.ai](https://www.k-dense.ai). Currently in closed beta, launching publicly in December 2025.
+If you want substantially more powerful ML capabilities through a multi-agentic system, sign up for [www.etl-ai.com](https://www.etl-ai.com). Currently in closed beta, launching publicly in December 2025.
 
 ## Upcoming Features
 
 - **Modal sandbox integration** - Choose any type of compute you want
-- **K-Dense Web features** - We might make some features from K-Dense Web available here based on interest
+- **ETL AI Web features** - We might make some features from ETL AI Web available here based on interest
 
 ## Star History
 
