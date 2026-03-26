@@ -11,6 +11,13 @@ This approach reflects a broader methodology of transforming fragmented data int
 
 ---
 
+## Architecture Perspective
+ETL-AI is designed as a modular pipeline framework where data flows through ingestion, transformation, validation, and intelligence layers.
+
+This architecture supports scalability, reusability, and seamless integration into enterprise data ecosystems.
+
+---
+
 ## Business Problem
 Organizations often struggle with:
 - Fragmented and inconsistent data sources  
@@ -46,6 +53,7 @@ This enables organizations to convert raw data into actionable insights with min
 - Python (data processing and automation)  
 - ETL pipeline architecture  
 - AI/ML integration for data validation and enrichment  
+- Scalable data processing patterns  
 
 ---
 
