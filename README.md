@@ -19,8 +19,9 @@ ETL-AI is designed as a modular pipeline framework where data flows through inge
 
 This architecture supports scalability, reusability, and seamless integration into enterprise data ecosystems.
 
-### Pipeline Flow
+This layered approach enables modular deployment and easier maintenance while supporting integration across evolving data environments.
 
+### Pipeline Flow
 
 ---
 
