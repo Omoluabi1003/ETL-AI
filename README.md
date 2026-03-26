@@ -1,91 +1,73 @@
-# ETL AI
-An agentic Machine Learning Engineer that trains state-of-the-art ML models using Claude Code SDK and Google ADK. This is a very simple implemenation demonstraing the power of Claude Scientific Skills for machine learning.
+# ETL-AI – Intelligent Data Pipeline & Automation Framework
 
-## Prerequisites
+> AI-enabled data engineering framework designed to transform raw data into structured, decision-ready intelligence
 
-- Python 3.13 or higher
-- [uv](https://github.com/astral-sh/uv) package manager
-- Claude Code installed and authenticated (see [installation guide](https://www.claude.com/product/claude-code))
+## Overview
+ETL-AI is a scalable data engineering and automation framework built to ingest, process, and transform raw datasets into structured, high-quality outputs.
 
-## Setup
+It combines traditional ETL principles with AI-driven logic to enable smarter data validation, enrichment, and processing across systems.
 
-### 1. Install Dependencies
+This approach reflects a broader methodology of transforming fragmented data into reliable, intelligent, and operationally valuable assets.
 
-Install dependencies using `uv`:
+---
 
-```bash
-uv sync
-```
+## Business Problem
+Organizations often struggle with:
+- Fragmented and inconsistent data sources  
+- Manual data processing workflows  
+- Lack of real-time or intelligent data validation  
+- Limited ability to operationalize AI within existing pipelines  
 
-### 2. Environment Variables
+These challenges lead to inefficiencies, poor data quality, and delayed decision-making.
 
-Create a `.env` file in the `etl_ai` directory with your API keys:
+---
 
-```bash
-OPENROUTER_API_KEY=your_openrouter_api_key_here
-AGENT_MODEL=your_model_name_here
-```
+## Solution
+ETL-AI provides:
+- Automated data ingestion and transformation  
+- AI-assisted validation and enrichment  
+- Structured data pipeline orchestration  
+- Scalable processing for large datasets  
 
-The `OPENROUTER_API_KEY` is required for the agent to function properly.
+This enables organizations to convert raw data into actionable insights with minimal manual effort.
 
-This is the same environment variable that will be copied to the `sandbox` directory so the agents can use any API keys you provide here.
+---
 
-## Quick Start
+## Key Capabilities
+- Data ingestion from structured and semi-structured sources  
+- Data transformation and normalization  
+- AI-driven validation and enrichment workflows  
+- Pipeline orchestration and automation  
+- Scalable processing architecture  
 
-Run the startup script to set up the sandbox and start the ADK web interface:
+---
 
-```bash
-python start.py
-```
+## Technology Stack
+- Python (data processing and automation)  
+- ETL pipeline architecture  
+- AI/ML integration for data validation and enrichment  
 
-This automatically:
-1. Creates a `sandbox` directory with scientific skills from Claude Scientific Skills
-2. Sets up a Python virtual environment with ML packages (PyTorch, transformers, scikit-learn, etc.)
-3. Copies your `.env` file to the sandbox
-4. Starts the ADK web interface
-5. Navigate to **http://localhost:8000** in your browser
-6. Select `ETL AI` in the top left under 'Select an agent'
-7. All outputs will be in the `sandbox` directory so continue to monitor that as you converse with the agent
+---
 
-**Note:** Any files you want the agent to use (datasets, scripts, etc.) should be manually added to the `sandbox` directory.
+## Use Case
+Applicable in environments such as:
+- Public-sector data modernization initiatives  
+- GIS and spatial data processing pipelines  
+- Business intelligence and analytics systems  
+- Enterprise data integration workflows  
 
-## Community
+---
 
-Join our ETL AI Slack community to connect with other users, share ideas, and get support:
+## Impact
+- Reduces manual data processing effort  
+- Improves data quality and consistency  
+- Enables faster and more intelligent decision-making  
+- Supports scalable, automated data workflows  
 
-**[Join ETL AI Slack Community](https://join.slack.com/t/etl-ai-community/shared_invite/zt-000000000-placeholder)**
+---
 
-## Claude Scientific Skills
-
-This repository is designed to work with the **[Claude Scientific Skills](https://github.com/ETL-AI/claude-scientific-skills)** collection of ready-to-use scientific tools and workflows ([link](https://github.com/ETL-AI/claude-scientific-skills)). The `start.py` setup script creates a `sandbox` that includes scientific skills from this collection so the `ETL AI` agent can leverage specialized ML libraries and scientific workflows. For full details on the skills themselves, see the upstream repository’s README and documentation [here](https://github.com/ETL-AI/claude-scientific-skills).
-
-## Manual Usage
-
-To set up the sandbox without starting the web interface:
-
-```bash
-python -m etl_ai.utils
-```
-
-**Note:** Any files you want the agent to use (datasets, scripts, etc.) should be manually added to the `sandbox` directory.
-
-To run the ADK web interface manually:
-
-```bash
-adk web
-```
-
-Then navigate to **http://localhost:8000** in your browser.
-
-## Enhanced ML Capabilities
-
-If you want substantially more powerful ML capabilities through a multi-agentic system, sign up for [www.etl-ai.com](https://www.etl-ai.com). Currently in closed beta, launching publicly in December 2025.
-
-## Upcoming Features
-
-- **Modal sandbox integration** - Choose any type of compute you want
-- **ETL AI Web features** - We might make some features from ETL AI Web available here based on interest
-
-## Star History
-
-[![Star History Chart](https://api.star-history.com/svg?repos=ETL-AI/ETL-AI&type=date&legend=top-left)](https://www.star-history.com/#ETL-AI/ETL-AI&type=date&legend=top-left)
+## Future Enhancements
+- Integration with cloud-based data platforms (AWS, Azure, GCP)  
+- API-driven pipeline orchestration  
+- Real-time streaming data support  
+- Advanced machine learning models for predictive analytics  
