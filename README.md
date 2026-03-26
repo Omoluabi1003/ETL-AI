@@ -1,6 +1,7 @@
 # ETL-AI – Intelligent Data Pipeline & Automation Framework
 
-> AI-enabled data engineering framework designed to transform raw data into structured, decision-ready intelligence
+> AI-enabled data engineering framework designed to transform raw data into structured, decision-ready intelligence  
+> Built to support scalable, enterprise-grade data workflows across GIS, analytics, and intelligent systems
 
 ## Overview
 ETL-AI is a scalable data engineering and automation framework built to ingest, process, and transform raw datasets into structured, high-quality outputs.
@@ -15,6 +16,11 @@ Designed with principles aligned to public-sector data modernization and enterpr
 
 ## Architecture Perspective
 ETL-AI is designed as a modular pipeline framework where data flows through ingestion, transformation, validation, and intelligence layers.
+
+This architecture supports scalability, reusability, and seamless integration into enterprise data ecosystems.
+
+### Pipeline Flow
+
 
 ---
 
@@ -86,6 +92,3 @@ Applicable in environments such as:
 ETL-AI represents a foundational component in modern data ecosystems, enabling organizations to transition from fragmented data environments to structured, intelligent, and scalable systems.
 
 It aligns with broader digital transformation initiatives where automation, data integrity, and AI-driven insights are critical to operational success.
-This architecture supports scalability, reusability, and seamless integration into enterprise data ecosystems.
-
-### Pipeline Flow
