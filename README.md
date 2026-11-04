@@ -1,5 +1,19 @@
 # ETL-AI – Intelligent Data Pipeline & Automation Framework
 
+## Project at a glance
+
+**Category:** AI-assisted extraction, transformation and loading framework  
+**Purpose:** Structure, normalize, validate and enrich data through modular pipelines  
+**Intended readers:** Users, contributors, reviewers and partners  
+**Source:** https://github.com/Omoluabi1003/ETL-AI
+
+**Scope and readiness:** The architectural description should be checked against the available modules before claiming a connector or production deployment exists.
+
+Refer to the implementation and testing sections below for supported workflows. Planned capabilities are not production guarantees.
+
+---
+
+
 > AI-enabled data engineering framework designed to transform raw data into structured, decision-ready intelligence  
 > Built to support scalable, enterprise-grade data workflows across GIS, analytics, and intelligent systems
 
